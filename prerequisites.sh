@@ -3,4 +3,4 @@ sudo systemctl start docker
 sudo usermod -a -G docker $USER
 # clone the repo
 git clone https://github.com/trafoDev/easyBC.git
-chmod -R 775 *.sh
+find -name *sh | xargs chmod 755
