@@ -11,9 +11,9 @@ sudo usermod -a -G docker $USER
 #
 wget -c https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz -O - | sudo tar -xz -C /usr/local
 export PATH=$PATH:/usr/local/go/bin
-source ~/.profile
+echo "export PATH=$PATH:/usr/local/go/bin" >> $HOME/.bashrc
 # clone the repo
 git clone https://github.com/trafoDev/easyBC.git
 find . -name *.sh -exec chmod 755 {} \;
 #
-su $USER
+
