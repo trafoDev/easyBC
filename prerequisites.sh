@@ -1,3 +1,6 @@
+#
+sudo kill $(pgrep -f unattended)
+#
 sudo apt-get -y update
 sudo apt-get -y upgrade
 #
