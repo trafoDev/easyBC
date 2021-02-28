@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 sudo kill $(pgrep -f unattended)
 #
