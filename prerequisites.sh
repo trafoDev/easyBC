@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 #
 sudo apt-get -y install docker.io && sudo apt-get -y  install docker-compose && sudo apt-get -y  install golang-go
 sudo systemctl start docker
