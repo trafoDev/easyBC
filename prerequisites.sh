@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 sudo kill $(pgrep -f unattended)
+sudo apt -y remove unattended-upgrades
 #
 sudo apt-get -y update
 sudo apt-get -y upgrade
